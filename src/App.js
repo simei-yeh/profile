@@ -1,21 +1,26 @@
-import logo from './logo.svg';
+import headshot from './headshot.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="headshot-container">
+        <a href="https://www.linkedin.com/in/simei-yeh/"
+          target="_blank"
+          rel="noreferrer">
+          <img src={headshot}
+            className="headshot"
+            alt="logo" />
+        </a>
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="Simei_Yeh_Resume.pdf"
         >
-          Learn React
+          Resume
         </a>
       </header>
     </div>
